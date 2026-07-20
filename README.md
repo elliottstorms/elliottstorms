@@ -20,7 +20,7 @@ The pipeline that generates the repo treats its own author as a security risk: a
 
 `HTML` · GitHub Pages
 
-Landing page for a long-form sleep audio catalog. Static, no dependencies, served directly from Pages.
+Landing page for a long-form sleep audio catalog. A single static page with no build step, served directly from Pages.
 
 ## How I build
 
