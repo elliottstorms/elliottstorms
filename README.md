@@ -24,10 +24,12 @@ Landing page for a long-form sleep audio catalog. Static, no dependencies, serve
 
 ## How I build
 
-1. The intelligence belongs in scripts and contracts, not in the model. Every check has an exit code, so it behaves the same on any model tier.
-2. Deny-by-default on anything that ships publicly.
-3. "The tool returned success" is a claim, not a verification.
-4. Read before writing, and report every change. No silent edits.
+Each of these is enforced by something you can go read, so none of it has to be taken on faith.
+
+1. The intelligence belongs in scripts and contracts, not in the model. Every check has an exit code, so it behaves the same on any model tier. ([pii_scan.py](https://github.com/elliottstorms/moonops-toolkit/blob/main/skills/pii-scan/pii_scan.py))
+2. Deny-by-default on anything that ships publicly. ([backup.sh](https://github.com/elliottstorms/moonops-toolkit/blob/main/backup/backup.sh))
+3. "The tool returned success" is a claim, not a verification. ([verifier](https://github.com/elliottstorms/moonops-toolkit/blob/main/agents/verifier.md))
+4. Read before writing, and report every change. No silent edits. ([builder](https://github.com/elliottstorms/moonops-toolkit/blob/main/agents/builder.md))
 
 ## Elsewhere
 
