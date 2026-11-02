@@ -16,6 +16,12 @@ It also ships a PII kit (a checksum-validating scanner, gates on both the tool-c
 
 The pipeline that generates the repo treats its own author as a security risk: a deny-by-default allowlist plus a fail-closed secrets tripwire. That is the intended amount of trust.
 
+### [governed-autonomy](https://github.com/elliottstorms/governed-autonomy)
+
+`Field guide` · MIT
+
+The method behind the toolkit, written down: six rules for running AI as a governed workforce, the ten stages a task moves through from draft to shipped, and cloneable starter templates so the rules are something you adopt rather than read. It is the long answer to the question at the top of this page.
+
 ### [design-tokens](https://github.com/elliottstorms/design-tokens)
 
 `CSS` · MIT
@@ -27,6 +33,12 @@ A dark-first design system whose accessibility claims are enforced rather than a
 `Shell` · MIT
 
 Five dependency-free shell libraries for jobs that run when nobody is watching: locking, timeouts, preflight checks, a fail-closed secret scan, and a status stream. Each one is documented with the production failure it exists to prevent, because the failure is usually more useful than the fix.
+
+### [site-audit](https://github.com/elliottstorms/site-audit)
+
+`Python` · MIT
+
+A pre-deploy and post-deploy audit for static sites in one dependency-free file: broken links, navigation drift between pages, Open Graph tags, required and forbidden strings, and a byte-level check that what went live is what you built. It fails the deploy before a visitor finds the broken thing.
 
 ### [moonstorms](https://github.com/elliottstorms/moonstorms)
 
